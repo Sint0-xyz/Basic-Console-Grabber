@@ -9,7 +9,7 @@
 
 ## 🔐 How to use
 
-• Go ond Discord and press CTRL + SHIFT + I and paste the Script in the console.
+Go ond Discord and press CTRL + SHIFT + I and paste the Script in the console.
 
 ```js
 (function() {
